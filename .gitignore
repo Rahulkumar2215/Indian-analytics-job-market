@@ -1,0 +1,18 @@
+# secrets - never commit API keys
+.env
+*.env
+secrets.*
+
+# raw Adzuna API data - regenerate by running the notebook's extraction cells
+raw_job_postings.csv
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pkl
+
+# Power BI temp files and OS clutter
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
